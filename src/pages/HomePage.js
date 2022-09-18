@@ -16,6 +16,44 @@ function HomePage(props) {
 
             <Container fluid="sm">
                 <Accordion>
+                <Card>
+                        <Card.Header className="text-center">
+                            <Accordion.Toggle as={Button} varient="link" eventKey="0">
+                                Software Developer - CaseWare International
+                            </Accordion.Toggle>
+                        </Card.Header>
+                        <Accordion.Collapse eventKey="0">
+                            <Card.Body>
+                                <Container fluid>
+                                    <Row>
+                                        <Col>
+                                            <p>CaseWare International is one of the oldest software companies founded in Toronto. It specializes in providing software solutions for accounting, financial, risk and governance professionals. The company was founded in Toronto in 1988 and has seen non stop growth, breaking into the european market in the late 90s then to the asain, and latin americas by early 2000. CaseWare’s solutions are now used in over 130 countries across the world and is a leader in its respective market.</p>
+                                        </Col>
+                                    </Row>
+                                    <Row >
+                                        <Col>
+                                            <p>My experience at CaseWare as a software developer coop has been a truly transformative experience, but before I delve into my role it is important that I provide more context to my team. During my time at CaseWare, I worked under the hybrid cloud umbrella that housed multiple teams all working in parallel to enhance CaseWare’s cloud platforms. To be specific I worked under the Sherlock squad that were undergoing two major projects. The first is Gold Standard Mapping, which is a web application that allows accounting professionals to perform risk analysis using data they have stored on our cloud systems. This data could be transferable to different regions and groups within a firm allowing data to be accessible throughout an organization. The second project in which I worked more closely on is our business intelligence (BI) platform which would allow users within a firm to create dashboards and analysis through their firm’s data. At CaseWare we use AWS to power our cloud technology, using services such as S3 which is a cloud noSQL database to quicksight which is AWS’s BI tool. </p>
+                                        </Col>
+                                    </Row>
+                                    <Row>
+                                        <Col>
+                                            <p>Coming into my team I quickly realized the difference CaseWare’s co-op experience is from many other companies. They put a huge emphasis on learning and developer success. Within the first few months I witnessed my peers in my team who had been at CaseWare for only 4 months prior to me lead feature and project releases, I also quickly began working on minor bug fixes. The opportunities for coops at CaseWare is unlike any other company. I was tasked with full research tickets that would end up leading to features and product releases that make you feel as though the work you complete is meaningful and impactful.</p>
+                                        </Col>
+                                    </Row>
+                                    <Row>
+                                    <Col>
+                                        <p>My major goal coming into this position was gaining experience working with AWS and its services. Cloud computing was something new for me and being able to work first hand with cloud platforms has been an amazing challenge for my career. Previously I was very interested in pursuing a career in full stack development with the more common tools under my belt such as ASP.NET, SQL, JavaScript and so on but after my time with CaseWare my view has shifted into a role more so as a cloud developer.</p>
+                                    </Col>
+                                    </Row>
+                                    <Row>
+                                    <Col>
+                                        <p>I hope to continue my career in cloud development, I believe with the knowledge and experience gained working at CaseWare I would make a great fit to any organization that has a focus on cloud computing. My experience at CaseWare has truly been the best professional opportunity of my career.</p>
+                                    </Col>
+                                    </Row>
+                                </Container>
+                            </Card.Body>
+                        </Accordion.Collapse>
+                    </Card>
                     <Card>
                         <Card.Header className="text-center">
                             <Accordion.Toggle as={Button} varient="link" eventKey="0">
