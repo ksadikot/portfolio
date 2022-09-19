@@ -18,11 +18,11 @@ function HomePage(props) {
                 <Accordion>
                 <Card>
                         <Card.Header className="text-center">
-                            <Accordion.Toggle as={Button} varient="link" eventKey="0">
+                            <Accordion.Toggle as={Button} varient="link" eventKey="2">
                                 Software Developer - CaseWare International
                             </Accordion.Toggle>
                         </Card.Header>
-                        <Accordion.Collapse eventKey="0">
+                        <Accordion.Collapse eventKey="2">
                             <Card.Body>
                                 <Container fluid>
                                     <Row>
